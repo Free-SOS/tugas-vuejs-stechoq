@@ -1,0 +1,28 @@
+{
+  "name": "tugas-vuejs-stechoq",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173",
+    "test:unit": "vitest --environment jsdom"
+  },
+  "dependencies": {
+    "core-js": "^3.25.1",
+    "firebase": "^9.9.4",
+    "flowbite": "^1.5.3",
+    "vue": "^3.2.38",
+    "vue-router": "^4.1.5",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^3.0.3",
+    "@vue/test-utils": "^2.0.2",
+    "autoprefixer": "^10.4.8",
+    "jsdom": "^20.0.0",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8",
+    "vite": "^3.0.9",
+    "vitest": "^0.23.0"
+  }
+}
